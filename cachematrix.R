@@ -28,6 +28,8 @@ makeCacheMatrix <- function(x) {
     
 }
 
+
+
 ## This fuction receives a makeCacheMatrix object and checks if exist previously any inverse precalculated
 ## or, in negative case, try to calculate this inverse, making a call to solve native function.
 cacheSolve <- function(x, ...) {
